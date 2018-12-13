@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Scroll = (props) =>{
-  return props.children; // this returns the child component that is wrapped
+  return (
+    <div style={{ overflowY:'scroll', border: '1px solid gray', height:'600px'}}>
+      {props.children}
+    </div>
+  )
 }
 export default Scroll;
