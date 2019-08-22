@@ -22,3 +22,7 @@ export const requestRobots = () => (dispatch) => {
 
 
 // a middleware is just a tunnle that an action goes through...
+
+
+// redux out of the box would not understand the requestRobots function as it returns a function and not the expected object.
+// by adding **thunkMiddleware from "redux-thunk"** we are now listening to actions. when requestRobots is triggered. redux-thunk will give dispatch for functions to run.
