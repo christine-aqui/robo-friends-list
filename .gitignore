@@ -5,6 +5,7 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage
@@ -84,4 +85,4 @@ typings/
 
 # next.js build output
 .next
->>>>>>> aafba7702d644dcfddc8f59cb723f3ee5efccb42
+package-lock.json

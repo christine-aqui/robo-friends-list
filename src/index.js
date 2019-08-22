@@ -14,7 +14,7 @@ const logger = createLogger();
 // make the store
 const store = createStore(
   searchRobots,
-  applyMiddleware(thunkMiddleware, logger)
+  applyMiddleware(thunkMiddleware, logger) // this is ordered.
 );
 
 ReactDOM.render(
